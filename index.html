@@ -34,6 +34,8 @@
 						<li><a href="index.html">Introduction</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="exp.html">Experience</a></li>
+						<li><a href="project.html">Projects</a></li>
+						<li><img src="sun.png" alt="" height="30px" id="sun"></li>
 					</ul>
 				</div>
 			</nav>
@@ -63,6 +65,21 @@
 				strings: ['Web Developer', 'Tech Enthusiast', 'Learner'],
 				typeSpeed: 40,
 			});
+			var icon=document.getElementById("sun");
+			icon.onclick=function(){
+				document.body.classList.toggle("light-theme");
+				if(document.body.classList.contains("light-theme")){
+					icon.src="moon.png";
+				}
+				else{
+					icon.src="sun.png"
+				}
+			}
+			/* 	1. For the java script- a variable icon is declared and its value is retrieved using getElementById which retrieves a html element through its id name.
+			3. .classList- shows the class attributes of an element.
+			2. Icon.onclick means a particular function gets executed when icon is clicked.
+			Toggle- adds the attributes of dark theme if not present and removes it if its already there.**/
+
 		</script>
 	</body>
 </html>
