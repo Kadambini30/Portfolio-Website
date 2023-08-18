@@ -34,6 +34,8 @@
 						<li><a href="index.html">Introduction</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="exp.html">Experience</a></li>
+						<li><a href="project.html">Projects</a></li>
+						<li><img src="sun.png" alt="" height="30px" id="sun"></li>
 					</ul>
 				</div>
 			</nav>
@@ -60,12 +62,17 @@
 				</div>
 			</section>
 		</main>
-		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 		<script>
-			var typed = new Typed('#element', {
-				strings: ['Web Developer', 'Tech Enthusiast', 'Learner'],
-				typeSpeed: 40,
-			});
+			var icon=document.getElementById("sun");
+			icon.onclick=function(){
+				document.body.classList.toggle("light-theme");
+				if(document.body.classList.contains("light-theme")){
+					icon.src="moon.png";
+				}
+				else{
+					icon.src="sun.png"
+				}
+			}
 		</script>
 	</body>
 </html>
