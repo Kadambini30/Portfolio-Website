@@ -36,6 +36,7 @@ img#sun{
 	--expo:aqua;
 }
 .light-theme{
+	transition: 1.1s;
 	--primary-color:rgb(234, 234, 245);
 	--secondary-color:rgb(20, 20, 39);
 	--color:rgb(194, 194, 219);
@@ -45,6 +46,9 @@ img#sun{
 
 .right {
 	font-size: 2rem;
+	background: linear-gradient(to left, #1FA0FF,#12DAFB,#7df9b3);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 .first {
 	display: flex;
