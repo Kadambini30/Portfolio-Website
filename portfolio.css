@@ -167,7 +167,7 @@ nav ul li a:hover {
 .bio .bax {
 	width: 580px;
 	height: 350px;
-	margin: 49px 24px 18px 256px;
+	margin: 32px 56px 38px 445px;
 	background-color: var(--primary-color)
 	border-radius: 15px;
 	border-style: ridge;
@@ -241,3 +241,11 @@ nav ul li a:hover {
         display: block;
         cursor: pointer;
     }
+.me{
+	margin-top: 57px;
+    	margin-bottom: 64px;
+    	margin-left: 9px;
+    	margin-right: 349px;
+}
+
+
