@@ -184,7 +184,7 @@ nav ul li a:hover {
 #t1 {
 	box-shadow: 0 0 1rem;
 	background-color: var(--expo);
-	width: 50%;
+	width: 40%;
 	height: 100%;
 	border-radius: 15px;
 }
